@@ -1,0 +1,65 @@
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 15px;
+    position: sticky;
+}
+
+.navUl
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navUl li
+{
+    font-size: larger;
+    cursor: pointer;
+    padding: 5px 35px;
+}
+
+.navUl li:hover
+{
+    color: orange;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+}
+
+.spans
+{
+    display: flex;
+    align-items: center;
+}
+
+.spans button
+{
+    padding: 5px 35px;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.login
+{
+    border: none;
+    background-color: transparent;
+}
+
+.login:hover , .signUp
+{
+    border: 2px solid rgb(190, 183, 255);
+    border-radius: 50px;
+    background-color: rgb(190, 183, 255);
+    color: white;
+}
+
+.signUp:hover
+{
+    border: none;
+    color: black;
+    background-color:transparent ;
+}
